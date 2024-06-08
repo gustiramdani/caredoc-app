@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const sendChatBtn = document.querySelector(".chat-input span");
     const chatbotUrl = window.Laravel.routes.chatbot;
     let userMessage = null; // Variable to store user's message
-    const API_KEY = "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"; // Paste your API key here
     const inputInitHeight = chatInput.scrollHeight;
     const createChatLi = (message, className) => {
         // Create a chat <li> element with passed message and className
